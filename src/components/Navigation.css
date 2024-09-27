@@ -1,0 +1,92 @@
+
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+  margin: 0;
+  background-color: #09095c; /* Light gray background */
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #053f61; /* White background for navbar */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 15px 20px; /* Padding for the navbar */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Center items vertically */
+}
+
+/* Logo Styles */
+.navbar-brand img {
+  height: 40px; /* Consistent logo size */
+}
+
+/* Navbar Links */
+.nav-link {
+  color: #1a1919; /* Dark text for visibility */
+  padding: 10px 15px; /* Padding for clickable area */
+  border-radius: 5px; /* Rounded corners */
+  transition: color 0.3s, background-color 0.3s; /* Smooth transition */
+  display: flex; /* Flex for icon and text alignment */
+  align-items: center; /* Center items vertically */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Primary color on hover */
+  background-color: rgba(0, 123, 255, 0.1); /* Light blue background on hover */
+}
+
+/* Icons */
+.nav-link i {
+  margin-right: 8px; /* Space between icon and text */
+  font-size: 1.2em; /* Slightly larger icons for visibility */
+}
+
+/* Logout Icon */
+.nav-item a {
+  display: flex;
+  align-items: center; /* Center icon vertically */
+  color: #dc3545; /* Red color for logout */
+}
+
+.nav-item a:hover {
+  color: #a71c24; /* Darker red on hover */
+}
+
+/* Collapsed Navbar */
+.navbar-toggler {
+  border: none; /* Remove border for a cleaner look */
+}
+
+.navbar-toggler-icon {
+  background-color: #bcd3ec; /* Color for toggler icon */
+}
+
+/* Main Content */
+.main-content {
+  
+  
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar {
+      padding: 10px; /* Adjust padding for smaller screens */
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: flex-start; /* Align items to start */
+  }
+
+  .nav-link {
+      padding: 8px 10px; /* Smaller clickable area */
+      width: 100%; /* Full width for links */
+  }
+
+  .navbar-toggler {
+      padding: 0; /* No extra padding for toggler */
+  }
+
+  .main-content {
+      padding: 15px; /* Adjust padding for smaller screens */
+  }
+}

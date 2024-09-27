@@ -1,0 +1,77 @@
+/* HomePage.css */
+
+/* HomePage.css */
+
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    margin: 0;
+    background-color: #f4f4f9; /* Light gray background for the whole page */
+}
+
+/* Main Content Area */
+.home-content {
+    padding: 100px 20px; /* Padding for the main content */
+    background: url('https://www.lumina.com.ph/assets/news-and-blogs-photos/Types-of-Employment-in-the-Philippines/Types-of-Employment-in-the-Philippines.webp') no-repeat center center; /* Background image */
+    background-size: cover; /* Cover the entire area */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #333; /* Text color */
+    margin-bottom: 20px;
+    background-image: 100vh;
+
+}
+
+/* Headings */
+h1 {
+    color: #007bff; /* Primary color for headings */
+    margin-bottom: 80px; /* Space below heading */
+}
+
+p {
+    margin-bottom: 40px; /* Space below paragraph */
+}
+
+/* Features Section */
+.features {
+    margin-top: 40px; /* Space above features */
+}
+
+/* Feature Cards */
+.feature-card {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 20px; /* Inner padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s; /* Smooth transform effect */
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+}
+
+.feature-card:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+/* Feature Icons */
+.feature-card i {
+    color: #007bff; /* Primary color for icons */
+    margin-bottom: 55px; /* Space below icon */
+    font-size: 3em; /* Larger icons for visibility */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .home-content {
+        padding: 20px 10px; /* Adjust padding for smaller screens */
+    }
+
+    .features {
+        flex-direction: column; /* Stack features vertically on smaller screens */
+    }
+
+    .feature-card {
+        margin-bottom: 20px; /* Space between cards */
+    }
+}

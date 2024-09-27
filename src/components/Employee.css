@@ -1,0 +1,15 @@
+.page1 {
+    background-image: url('https://empmonitor.com/blog/wp-content/uploads/2021/08/Work-from-home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+}
+
+.main55 {
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: white; /* Ensure text is visible against the background */
+    margin-top: 120px; /* Adjusted margin */
+    text-align: center; /* Center text horizontally */
+}
+

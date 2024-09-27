@@ -1,0 +1,9 @@
+.bag {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px; /* Padding for the overall layout */
+  }
+  
+  .table img {
+    max-width: 100%; /* Ensure images are responsive */
+  }
+  

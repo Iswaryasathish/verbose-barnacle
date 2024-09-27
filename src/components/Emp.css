@@ -1,0 +1,8 @@
+.fix {
+    background-image: url('https://img.freepik.com/free-vector/hiring-agency-candidates-job-interview_1262-18940.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh; /* Ensure it covers the full height */
+    
+}

@@ -1,0 +1,43 @@
+/* Add.css */
+.content1 {
+  background-image: url('https://example.com/your-background-image.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height */
+  color: #333; /* Text color */
+}
+
+.main1 {
+  background: rgba(255, 255, 255, 0.9); /* White background with opacity */
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 600px; /* Center and limit the width */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.label-container {
+  margin-bottom: 5px;
+}
+
+.btn {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .main1 {
+      padding: 20px; /* Less padding on smaller screens */
+  }
+}
+
+  
+  
